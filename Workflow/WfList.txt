@@ -1,0 +1,18 @@
+CMS-Hub Workflow List
+
+name	                      description
+B_DPT_DIR_TRF_ONL_EXEC	    Direct Debit Transfer Online Transaction
+B_DPT_FUD_TRF_OFF_EXEC	    Fund Transfer Offline Transaction
+B_EOD_BTH_INT_EXEC	EOD     Batch Instance
+B_DPT_IRT_TRF_OFF_EXEC	    Internal Transfer Offline Transaction
+B_DPT_SCH_TRF_ONL_EXEC	    Schedule Transfer Online Transasction
+B_DPT_BPM_TRF_OFF_EXEC	    Bill Payment Offline Transaction
+B_DPT_BPM_TRF_MER_EXEC	    Bill Payment by Merchant
+B_DPT_DIR_TRF_OFF_EXEC	    Direct Debit Transfer Offline Transaction
+B_DPT_SCH_TRF_OFF_EXEC	    Schedule Transfer Offline Transaction
+B_DPT_IRT_TRF_ONL_EXEC	    Internal Transfer Online Transaction
+B_IMP_BILL_INFO_ON_EXEC	    Import Bill Online
+B_DPT_FUD_TRF_ONL_EXEC	    Fund Transfer Online Transaction
+B_DPT_BPM_TRF_ONL_EXEC	    Bill Payment Online Transaction
+B_SYNC_BEF_DPT_ACT_EXEC	    Sync Beneficiary Deposit Account
+B_IMP_BILL_INFO_OFF_EXEC	   Import Offline Bill
