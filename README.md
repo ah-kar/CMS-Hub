@@ -21,3 +21,13 @@ CMS Hub Database Schema &amp; WorkFlow
 | 14  | B_SYNC_BEF_DPT_ACT_EXEC      | Sync Beneficiary Deposit Account            | 1.0     |
 | 15  | B_IMP_BILL_INFO_OFF_EXEC     | Import Offline Bill                         | 1.0     |
 
+## History Data Movement List
+
+| ID  | FROM_TABLE | TO_TABLE      | Description                          | TYPE     | FREQUENCY |
+|-----|------------|---------------|--------------------------------------|----------|-----------|
+| 1   | D_HUBSTM   | R_HUBSTM      | Move Hub Transaction Statement History | T-SQL    | DAILY     |
+| 2   | D_OTPOUT   | R_OTPOUT      | Move OTP Info History                | T-SQL    | DAILY     |
+| 3   | D_SMSOUT   | R_SMSOUT      | Move SMS Info History                | T-SQL    | DAILY     |
+| 4   | D_MAILOUT  | R_MAILOUT     | Move Mail Info History               | T-SQL    | DAILY     |
+| 5   | D_BILLINFO | R_BILLINFO    | Move Paid/Expire Bill Info History   | T-SQL    | DAILY     |
+| 6   | SYSLOG     | SYSLOGHISTORY | Move System Log History              | Agent    | DAILY     |
