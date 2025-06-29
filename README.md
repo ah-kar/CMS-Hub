@@ -7,7 +7,7 @@ CMS Hub Database Schema &amp; WorkFlow
 |-----|------------------------------|---------------------------------------------|---------|
 | 1   | B_DPT_DIR_TRF_ONL_EXEC       | Direct Debit Transfer Online Transaction    | 1.0     |
 | 2   | B_DPT_FUD_TRF_OFF_EXEC       | Fund Transfer Offline Transaction           | 1.0     |
-| 3   | B_EOD_BTH_INT_EXEC           | EOD Batch Instance                          | 1.0     |
+| 3   | B_EOD_BTH_INT_EXEC           | Clean Log                                   | 1.1     |
 | 4   | B_DPT_IRT_TRF_OFF_EXEC       | Internal Transfer Offline Transaction       | 1.0     |
 | 5   | B_DPT_SCH_TRF_ONL_EXEC       | Schedule Transfer Online Transaction        | 1.0     |
 | 6   | B_DPT_BPM_TRF_OFF_EXEC       | Bill Payment Offline Transaction            | 1.0     |
