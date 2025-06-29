@@ -31,3 +31,5 @@ CMS Hub Database Schema &amp; WorkFlow
 | 4   | D_MAILOUT  | R_MAILOUT     | Move Mail Info History               | T-SQL    | DAILY     |
 | 5   | D_BILLINFO | R_BILLINFO    | Move Paid/Expire Bill Info History   | T-SQL    | DAILY     |
 | 6   | SYSLOG     | SYSLOGHISTORY | Move System Log History              | Agent    | DAILY     |
+| 5   | D_DIRECTDEBIT | R_DIRECTDEBIT    | Move Direct Debit History      | T-SQL    | DAILY     |
+| 6   | D_SCHEDULETRANSFER | R_SCHEDULETRANSFER | Move Schedule Transfer History | T-SQL    | DAILY     |
